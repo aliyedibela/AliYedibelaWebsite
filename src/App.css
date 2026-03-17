@@ -6,7 +6,7 @@
 .navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 900; display: flex; align-items: center; justify-content: space-between; padding: 1.4rem 4rem; transition: background 0.4s, padding 0.4s; }
 .navbar.scrolled { background: rgba(6,13,43,0.95); backdrop-filter: blur(20px); padding: 0.9rem 4rem; border-bottom: 1px solid rgba(37,99,235,0.2); }
 .nav-logo { display: flex; align-items: center; }
-.nav-logo-img { height: 67px; width: auto; object-fit: contain; display: block; }
+.nav-logo-img { height: 75px; width: auto; object-fit: contain; display: block; }
 .nav-links { display: flex; gap: 2.4rem; list-style: none; }
 .nav-links a { text-decoration: none; font-size: 0.88rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gray-soft); transition: color 0.25s; position: relative; }
 .nav-links a::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 1.5px; background: var(--blue-bright); transition: width 0.3s; }
@@ -74,7 +74,6 @@
 .hl-title { display: block; font-size: 0.88rem; font-weight: 600; color: var(--white); margin-bottom: 0.2rem; }
 .hl-desc { display: block; font-size: 0.78rem; color: var(--gray-dim); line-height: 1.5; }
 
-/* ─── Inline image arrows ─────────────────── */
 .img-arrow {
   position: absolute;
   top: 50%;
@@ -94,7 +93,7 @@
 }
 .work-img-wrap:hover .img-arrow,
 .project-img-wrap:hover .img-arrow { opacity: 1; }
-/* mobilde her zaman görünsün */
+
 @media (pointer: coarse) {
   .img-arrow { opacity: 0.75 !important; }
 }
@@ -102,7 +101,7 @@
 .img-arrow-prev { left: 10px; }
 .img-arrow-next { right: 10px; }
 
-/* Projects */
+
 .projects { padding: 5rem 4rem; background: linear-gradient(180deg, transparent, rgba(14,32,87,0.2) 50%, transparent); }
 .projects-inner { max-width: 1100px; margin: 0 auto; }
 .projects-list { display: flex; flex-direction: column; gap: 4rem; margin-top: 1rem; }
@@ -142,7 +141,6 @@
 .footer-logo-img { height: 32px; width: auto; object-fit: contain; display: block; }
 .footer-inner p { font-size: 0.8rem; color: var(--gray-dim); }
 
-/* Works */
 .works { padding: 5rem 4rem; position: relative; overflow: hidden; }
 .works::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 50% at 20% 50%, rgba(37,99,235,0.06) 0%, transparent 70%), radial-gradient(ellipse 60% 50% at 80% 50%, rgba(37,99,235,0.04) 0%, transparent 70%); pointer-events: none; }
 .works-inner { max-width: 1100px; margin: 0 auto; position: relative; }
@@ -172,11 +170,11 @@
 .work-tech { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-bottom: 1.8rem; }
 .work-cta { display: flex; gap: 1rem; flex-wrap: wrap; }
 
-/* zoom hint */
+
 .work-zoom-hint { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.5); color: white; font-size: 0.78rem; font-weight: 600; padding: 0.4rem 0.9rem; border-radius: 20px; opacity: 0; transition: opacity 0.2s; pointer-events: none; z-index: 3; white-space: nowrap; }
 .work-img-wrap:hover .work-zoom-hint, .project-img-wrap:hover .work-zoom-hint { opacity: 1; }
 
-/* Lightbox */
+
 .lightbox-overlay { position: fixed; inset: 0; z-index: 9000; background: rgba(3,7,18,0.96); backdrop-filter: blur(12px); display: flex; align-items: center; justify-content: center; animation: lbFadeIn 0.2s ease; padding: 1rem; }
 @keyframes lbFadeIn { from { opacity: 0; } to { opacity: 1; } }
 .lb-close { position: absolute; top: 1.2rem; right: 1.4rem; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: white; width: 40px; height: 40px; border-radius: 50%; font-size: 1rem; cursor: pointer; z-index: 10; transition: background 0.2s; display: flex; align-items: center; justify-content: center; }
@@ -196,10 +194,10 @@
 .lb-thumb:hover { opacity: 0.85; }
 .lb-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
-/* scroll-margin tüm section'lara */
+
 #hakkimda, #calismalarim, #projeler, #iletisim { scroll-margin-top: 80px; }
 
-/* Responsive */
+
 @media (max-width: 1024px) {
   .navbar { padding: 1.2rem 2rem; }
   .navbar.scrolled { padding: 0.9rem 2rem; }
