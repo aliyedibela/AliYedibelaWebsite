@@ -455,8 +455,6 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
-    <Analytics /> 
-    <SpeedInsights/>
     </>
   )
 }
