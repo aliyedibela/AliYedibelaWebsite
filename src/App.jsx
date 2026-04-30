@@ -244,7 +244,7 @@ const WORKS = [
     id: 3,
     title: 'Seramik Alçı Boya',
     subtitle: 'Kurumsal Web Platformu',
-    description: 'Seramik, alçı ve boya sektöründe hizmet veren firma için SEO uyumlu ve mobil destekli web sitesi. (Buraya siteyle ilgili uydurmak istediğin bir açıklama yazabilirsin)',
+    description: 'Seramik, alçı ve boya sektöründe hizmet veren firma için web sitesi.',
     features: ['Hizmet ve ürün tanıtımı', 'SEO uyumlu altyapı', 'Mobil uyumlu tasarım'],
     tech: ['React', 'Next.js', 'Tailwind'],
     screenshots: ['/work3ss1.png','/work3ss2.png'], 
