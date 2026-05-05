@@ -239,18 +239,7 @@ const WORKS = [
     screenshots: ['/work2ss1.png','/work2ss2.png','/work2ss3.png','/work2ss4.png','/work2ss5.png','/work2ss6.png','/work2ss7.png','/work2ss8.png','/work2ss9.png','/work2ss10.png','/work2ss11.png','/work2ss12.png','/work2ss13.png','/work2ss14.png','/work2ss15.png','/work2ss16.png','/work2ss17.png','/work2ss18.png','/work2ss19.png','/work2ss20.png','/work2ss21.png','/work2ss22.png'],
     badge: 'Canlı Ürün',
     link: 'https://www.esfyapi.tr/',
-  },
-  {
-    id: 3,
-    title: 'Seramik Alçı Boya',
-    subtitle: 'Kurumsal Web Platformu',
-    description: 'Seramik, alçı ve boya sektöründe hizmet veren firma için web sitesi.',
-    features: ['Hizmet ve ürün tanıtımı', 'SEO uyumlu altyapı', 'Mobil uyumlu tasarım'],
-    tech: ['React', 'Next.js', 'Tailwind'],
-    screenshots: ['/work3ss1.png','/work3ss2.png'], 
-    badge: 'Canlı Ürün',
-    link: 'https://seramikalciboya.com',
-  },
+  }
 ]
 
 function WorkCard({ work, index }) {
